@@ -2,7 +2,7 @@ def mathCompoundInterest(principle,rate,time):
     
     totalAmount = principle*(1+(rate/100))**time
 
-    print("Compound Interest:  "+ str(round(totalAmount - principle,2)))
+    print("Compound Interest: "+ str(round(totalAmount - principle,2)))
 
 
 def calculateCompoundInterest():
